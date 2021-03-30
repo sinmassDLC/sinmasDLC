@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3f3f3f;
+    margin: 1em;
+
+}
+
+h1 {
+    font-family: Market_Deco;
+    color: #bfbfbf;
+    text-align: center;
+}
+
+h4, h3, p{
+    color: #bfbfbf;
+    font-family: Market_Deco;
+    
+}
+
+.ficha-tecnica li{
+    list-style: none;
+}
+
+.aventura{
+    font-size: 20px;
+}
+
+.slider{
+    width: 45%;
+    height: 45%;
+    overflow: hidden;
+    margin: 1em;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+@font-face{
+    font-family: Market_Deco;
+    src: url(../FUENTES/Central\ European\ Time\ 0503.otf);
+}
+
+.texto{
+    font-size: 2em;
+    font-family:Market_Deco;
+}
+video{
+    width: 50%;
+    height: 50%;
+}
+
+.caratula{
+    margin: 1em;
+    float: left;
+    border: 2px blue solid;
+}
+.recomendado{
+    text-align: right;
+}
+
+.ficha li{
+text-align: left ;
+list-style: none;
+}
+
+footer strong{
+    font-family: Market_Deco;
+    clear: both;
+}

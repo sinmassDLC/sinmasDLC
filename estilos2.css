@@ -1,0 +1,49 @@
+.caratula {
+    border: 5px solid blue;
+    margin: 1em;
+}
+
+strong{
+    font-family: Market_Deco;
+    color: white;
+}
+
+.slider img{
+
+    margin: 1em;
+}
+
+.trailer{
+    border: 5px solid blue;
+    margin: 1em;
+}
+
+.gameplay {
+    border: 5px solid blue;
+    margin: 1em;
+}
+h2, h3{
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+.mega{
+    font-size: 2em;
+}
+
+.comprar{
+    font-size: 2em;
+}
+
+.referencia{
+    color: white;
+}
+a{
+    color: tomato;
+}
+
+footer{
+    clear: both;
+}
