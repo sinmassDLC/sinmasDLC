@@ -1,0 +1,15 @@
+.title {
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.correo_contacto {
+    text-align: center;
+}
