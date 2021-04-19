@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Century Gothic;
+}
+
+body {
+    background-color: #ededed;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in_flex {
+    flex: 1;
+    min-width: 250px;
+}
+
+.in_flex:first-child {
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.in_flex div {
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
