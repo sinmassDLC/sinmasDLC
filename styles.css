@@ -1,0 +1,25 @@
+.titulo {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.caratula {
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+ h3 {
+     font-size: 25px;
+     margin: 1rem;
+    text-align: center;
+}
+
+.xyz {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.ajh {
+    text-align: center;
+}
